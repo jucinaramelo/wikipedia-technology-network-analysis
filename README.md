@@ -46,19 +46,6 @@ O objetivo é compreender como diferentes áreas da ciência, tecnologia e socie
 
 ---
 
-## Requisito 4 – Heurística e Estrutura de Dados
-A exploração da Wikipedia até o nível 2 gera alto custo computacional devido ao crescimento exponencial do número de páginas. Para tornar a coleta viável, foram adotadas as seguintes estratégias:
-
-- Busca em largura (BFS) com controle de profundidade
-- Uso de estruturas do tipo `set` para evitar revisitar páginas já processadas
-- Limitação do número máximo de links explorados por página
-- Filtro de páginas irrelevantes da Wikipedia (listas, identificadores e namespaces)
-- Mesclagem incremental dos grafos gerados a partir de cada seed
-
-Essas heurísticas reduzem significativamente a explosão do grafo, tornando a análise computacionalmente viável mesmo com seeds de áreas distintas.
-
----
-
 ## Requisito 1 – Métricas de Centralidade (Gephi)
 Foram geradas visualizações no **Gephi** a partir do grafo final, obedecendo aos seguintes critérios:
 
@@ -135,6 +122,19 @@ A rede foi analisada em modo de produção, destacando suas comunidades:
 A figura apresenta a rede em modo de produção, com os vértices coloridos de acordo com as **comunidades identificadas pelo algoritmo de Louvain**. Observa-se a formação de grupos bem definidos, cada um representando conjuntos de páginas mais densamente conectadas entre si, refletindo diferentes domínios do conhecimento presentes na rede.
 
 As conexões entre comunidades indicam a existência de nós intermediários que atuam como pontos de ligação entre áreas distintas, evidenciando a natureza multidisciplinar da rede. Essa estrutura mostra como temas de ciência, tecnologia e fenômenos naturais se organizam em módulos, ao mesmo tempo em que permanecem interconectados dentro da Wikipedia.
+
+---
+
+## Requisito 4 – Heurística e Estrutura de Dados
+A exploração da Wikipedia até o nível 2 gera alto custo computacional devido ao crescimento exponencial do número de páginas. Para tornar a coleta viável, foram adotadas as seguintes estratégias:
+
+- Busca em largura (BFS) com controle de profundidade
+- Uso de estruturas do tipo `set` para evitar revisitar páginas já processadas
+- Limitação do número máximo de links explorados por página
+- Filtro de páginas irrelevantes da Wikipedia (listas, identificadores e namespaces)
+- Mesclagem incremental dos grafos gerados a partir de cada seed
+
+Essas heurísticas reduzem significativamente a explosão do grafo, tornando a análise computacionalmente viável mesmo com seeds de áreas distintas.
 
 ---
 
