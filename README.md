@@ -58,7 +58,7 @@ Foram geradas visualizações no **Gephi** a partir do grafo final, obedecendo a
 
 ### Betweenness Centrality
 
-<img width="764" height="790" alt="image" src="https://github.com/user-attachments/assets/9b9682b8-08af-456b-bb97-fe67674ff0cc" />
+<img width="759" height="878" alt="image" src="https://github.com/user-attachments/assets/7ede5612-71e8-4e1b-b7ef-4dd7a189893b" />
 
 **Análise:**  
 . A visualização baseada em *betweenness centrality* destaca os nós que atuam como **pontes entre diferentes regiões da rede**. Observa-se que poucos vértices concentram valores elevados dessa métrica, indicando páginas que conectam áreas distintas do conhecimento, como ciência, tecnologia e fenômenos naturais. Esses nós são fundamentais para a coesão global da rede, pois facilitam o fluxo de informação entre comunidades que, de outra forma, estariam fracamente conectadas.
@@ -67,7 +67,7 @@ Foram geradas visualizações no **Gephi** a partir do grafo final, obedecendo a
 
 ### Closeness Centrality
 
-<img width="756" height="796" alt="image" src="https://github.com/user-attachments/assets/515a8fc6-f737-402c-8e42-2a05d1b74c80" />
+<img width="759" height="878" alt="image" src="https://github.com/user-attachments/assets/75421cc1-c0bf-4cc6-a5b7-843f58719a8e" />
 
 **Análise:**
 A *closeness centrality* evidencia os nós que possuem **menor distância média em relação aos demais vértices da rede**. Na visualização, esses nós aparecem mais centrais espacialmente, indicando páginas que conseguem alcançar rapidamente grande parte da rede. Isso sugere que tais páginas representam conceitos amplos ou altamente referenciados dentro da Wikipedia.
@@ -76,7 +76,7 @@ A *closeness centrality* evidencia os nós que possuem **menor distância média
 
 ### Degree Centrality
 
-<img width="763" height="828" alt="image" src="https://github.com/user-attachments/assets/6efa7df1-b7fd-4907-a6ee-832ea19a58ae" />
+<img width="759" height="878" alt="image" src="https://github.com/user-attachments/assets/0c539d30-3d59-485b-9cb8-1046f9b2b9d5" />
 
 **Análise:**  
 A centralidade de grau (*degree centrality*) destaca os nós com **maior número de conexões diretas**. A figura evidencia a presença de hubs bem definidos, caracterizados por vértices maiores e altamente conectados. Esses nós correspondem a páginas muito referenciadas, exercendo forte influência na estrutura local da rede.
@@ -85,7 +85,7 @@ A centralidade de grau (*degree centrality*) destaca os nós com **maior número
 
 ### Eigenvector Centrality
 
-<img width="781" height="791" alt="image" src="https://github.com/user-attachments/assets/563554c2-ee9f-484b-ac46-b5cdc1921409" />
+<img width="759" height="878" alt="image" src="https://github.com/user-attachments/assets/0bb4827e-6c3f-48cc-86c2-1da4b94bd66a" />
 
 **Análise:**
 A *eigenvector centrality* identifica nós que estão conectados a outros nós também altamente importantes. A visualização mostra um subconjunto de vértices com valores elevados dessa métrica, indicando páginas que ocupam posições estratégicas no núcleo da rede. Esses nós refletem a estrutura hierárquica da rede e representam centros de influência global.
