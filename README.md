@@ -24,11 +24,11 @@ O objetivo é compreender como diferentes áreas da ciência, tecnologia e socie
 ## 🗂️ Base de Dados
 - Fonte: **Wikipedia**
 - Páginas-semente utilizadas:
-  - Python (programming language) — Tecnologia
-  - COVID-19 — Saúde
-  - Photosynthesis — Biologia
-  - Energy crisis — Energia e Sociedade
-  - Eclipse — Astronomia
+  - Python (programming language) 
+  - Football
+  - Global warmin
+  - Energy crisis 
+  - Eclipse 
 - Estratégia:
   - Busca em largura (BFS)
   - Profundidade máxima: nível 2
